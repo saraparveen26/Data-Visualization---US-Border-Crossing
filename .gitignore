@@ -131,3 +131,6 @@ dmypy.json
 
 # Adding api_key.py file.
 api_key.py
+
+# Misc
+.DS_Store
