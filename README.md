@@ -28,11 +28,15 @@ For weather-related analysis, we narrowed our time frame to just 2018 and groupe
 
 # *Weather Data*
 
-For weather-related analysis, we narrowed our time frame to just 2018 and grouped so we had only one row for each Port Name (116 unique Ports) based on unique timestamp (one timestamp for each month in 2018). The reason for narrowing data for one year was that there was limit on OpenWeatherMap API for historical data retrieval of 2000 entries per day even with subscription. The retrieved data for five different weather variables were added to the dataset which was then imported to another CSV.
+For weather-related analysis, we narrowed our time frame to just 2018 and grouped the data so we had only one row for each Port Name (116 unique Ports) based on the unique timestamp (one timestamp for each month in 2018). The retrieved data for five different weather variables were added to the dataset which was then imported to another CSV.
+
 
 ## Limitations
 
 The limitations of the border crossing data were that it only had information for a limited time period and that it only showed activity for inbound US border crossing date. The data set only had information up to 2019 and the 2019 data only went up to February. Had we had access to information up to possibly 2022, we could have provided some more current insight. For the purposes of our project, we chose to analyze a 10-year span from 2009 to 2018 as those were the most recent years with information available for the entire years.
+
+The limitation of the weather conditions API was that it was only for the year of 2018. The data was narrowed down to one year because there was limit on OpenWeatherMap API for historical data retrieval of 2000 entries per day even with subscription. 
+
 
 ## Analysis and Findings
 
@@ -49,7 +53,7 @@ There are two borders for the US: the US-Canada Border and the US-Mexico Border.
 The people traffic for the US-Mexico border is 3 times higher than the US-Canada border overall across the 10 years analyzed i.e. 2009-2018. The US-Mexico border has 1.2 billion more people crossing the border overall. The vehicle traffic for the US-Mexico border is also 2 times higher than the traffic across the US-Canada border. The US-Mexico border has 380 million more vehicles crossing the border overall. For both the people and vehicle traffic, the US-Mexico border has an upward tick of activity from 2012 to 2018, jumping about 23% for its vehicle traffic and jumping about 21% for its people traffic. For both the US-Mexico border and the US-Canada border, the people traffic is much higher in general.
 
 
-# *Question 2 - Which are the top 5 busiest ports between US and Canada?*
+# *Question 2 - What are the top 5 busiest ports along the US-Canada border?*
 
 For this question, line graphs were used to look at the people traffic and the vehicle traffic across the US-Canada border.
 
@@ -60,7 +64,7 @@ For this question, line graphs were used to look at the people traffic and the v
 Across the US-Canada border, between 2009 to 2018, the top five busiest ports overall are Buffalo-Niagara Falls, Blaine, Champlain-Rousses Point, Detroit and Port Huron. The top two busiest ports for people traffic are Buffalo-Niagara Falls and Blaine. Both of these ports are close to metropolitan cities and are located towards the end of US-Canada border line.  For its vehicle traffic, the top two busiest ports are Buffalo-Niagara Falls and Detroit. There is an increase in people traffic from 2010-2012 for the ports in Buffalo-Niagara Falls and Blaine, then there is a decline from 2013 and another uptick starting in 2017. The people and vehicle traffic for at the Champlain-Rousses Point port stays relatively steady across the year compared to the other busy ports.
 
 
-# *Question 3: Which are the top 5 busiest ports between US and Mexico?*
+# *Question 3: What are the top 5 busiest ports along the US-Mexico border?*
 
 Similar to question 2, for this question, line graphs were used to look at the people traffic and the vehicle traffic across the US-Mexico border. However, because there are significantly less ports across the US-Mexico border, bar graphs were also included to provide some additional insight.
 
@@ -75,7 +79,7 @@ Similar to question 2, for this question, line graphs were used to look at the p
 The top 5 busiest ports for both people traffic and vehicle traffic across the US-Mexico border between 2008 ans 2019 are San Ysidro, El Paso, Laredo, Otay Mesa and Hidalgo. The top two busiest ports across both people traffic and vehicle traffic are San Ysidro and El Paso; these ports are near metropolitan cities. Across these two ports, there is a decrease from 2009 to end 2012 then a steady increase as of 2013 across both ports. From the busiest port across the US-Mexico border i.e. San Ysidro, there is on average about 2.5 times people crossing the border than there are vehicles.
 
 
-# *Question 4 - Which are the top three busiest states between US and Canada?*
+# *Question 4 - What are the top three busiest states along the US-Canada border?*
 
 For this question, both bar graphs and line graphs were used to draw some observations.
 
@@ -90,7 +94,7 @@ For this question, both bar graphs and line graphs were used to draw some observ
 Across the US-Canada border, the top three busiest states are Michigan, New York and Washington. Michigan has the most vehicle traffic followed by New York at a close second. New York has on average the most people traffic followed by Washington. New York has about 1.5 times more people traffic than Washington. New York remains the busiest state overall for both vehicle and people traffic showing a more consistent traffic trend lines across the years. In New York, there is a significant difference between the number of people crossing the border versus vehicles crossing the border. The people traffic is about 2 times more. In regards to both vehicle and people traffic, the volumes increased between 2009 and mid-2012 for the top three busiest states then started to decrease. Of the three, Michigan has remained relatively steady across the years whereas New York and Washington show greater volatility in their decline. Zooming out, the busiest states also coincide with the busiest ports along the US-Canada border i.e. New York and Washington. For the people traffic, New York is on average 7 times busier than Vermont on average. For vehicle traffic, Michigan is on average on 10 times busier than Vermont on average.
 
 
-# *Question 5: Which are the top 3 busiest states across US-Mexico border?*
+# *Question 5: What are the top 3 busiest states along the US-Mexico border?*
 
 For this question, both bar graphs and line graphs were used to draw some observations.
 
@@ -118,7 +122,7 @@ For this question, we used both a pie chart and horizontal stacked bar graph to 
 Personal vehicles represent 79.7% of the vehicle volume across the 10 years followed by trucks at 8.8%. For Canada, the use of personal vehicles increased from 2009 to 2013 and then has declined ever since. For Mexico, the use of vehicles declined from 2009 to 2012 and has increased ever since.
 
 
-# *Question 7: Which months are the busiest on US borders?*
+# *Question 7: Which months are the busiest at the US borders?*
 
 For this question, the following graphs were used: a vertical stacked graph, bar graphs and a pie chart.
 
