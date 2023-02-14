@@ -1,4 +1,4 @@
-# US Border Crossing Data
+# US Border Crossing
 
 ## Introduction
 
